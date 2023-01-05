@@ -1,0 +1,21 @@
+current directory: /home/rordev/priya/vendor/bundle/ruby/2.7.0/gems/date-3.3.3/ext/date
+/home/rordev/.rvm/rubies/ruby-2.7.2/bin/ruby -I /home/rordev/.rvm/rubies/ruby-2.7.2/lib/ruby/site_ruby/2.7.0 extconf.rb
+checking for rb_category_warn()... no
+checking for timezone in time.h with  -Werror... yes
+checking for altzone in time.h with  -Werror... no
+creating Makefile
+
+current directory: /home/rordev/priya/vendor/bundle/ruby/2.7.0/gems/date-3.3.3/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20230104-10716-axnabp sitelibdir\=./.gem.20230104-10716-axnabp clean
+
+current directory: /home/rordev/priya/vendor/bundle/ruby/2.7.0/gems/date-3.3.3/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20230104-10716-axnabp sitelibdir\=./.gem.20230104-10716-axnabp
+compiling date_core.c
+compiling date_parse.c
+compiling date_strftime.c
+compiling date_strptime.c
+linking shared-object date_core.so
+
+current directory: /home/rordev/priya/vendor/bundle/ruby/2.7.0/gems/date-3.3.3/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20230104-10716-axnabp sitelibdir\=./.gem.20230104-10716-axnabp install
+/usr/bin/install -m 0755 date_core.so ./.gem.20230104-10716-axnabp
